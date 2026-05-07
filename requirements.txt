@@ -1,10 +1,11 @@
-streamlit
+streamlit==1.32.2
 tensorflow==2.15.0
 keras==2.15.0
-numpy
+numpy==1.26.4
 pandas
 pillow
 matplotlib
 opencv-python-headless
 scikit-learn
 reportlab
+h5py
