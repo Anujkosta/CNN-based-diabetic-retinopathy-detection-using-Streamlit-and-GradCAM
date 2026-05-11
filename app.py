@@ -17,9 +17,8 @@ from utils.gradcam import make_gradcam_heatmap
 @st.cache_resource
 def load_model():
     return tf.keras.models.load_model(
-    "best_model.keras",
-    compile=False,
-    safe_mode=False
+    "best_model.h5",
+    compile=False
 )
 
 model = load_model()
